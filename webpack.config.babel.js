@@ -17,7 +17,7 @@ const getConfig = target => {
             ]
         },
         output: {
-            path: path.join(DIST_PATH, target),
+            path: path.join(DIST_PATH),
             filename: "[name].js",
         },
     };
